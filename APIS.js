@@ -85,6 +85,7 @@ function grafica_scatter() {
 
             Plotly.newPlot('Grafo1', data, layout);
         });
+        boton1();
 }
 //fin función primer api
 
@@ -186,6 +187,21 @@ function grafica_bubble(){
               
             Plotly.newPlot('Grafo2', data, layout);
         })
+        boton2();
+}
+
+function boton1() {
+    document.getElementById("Grafo1").style.display = "block"
+    document.getElementById("Grafo2").style.display = "none"
+    document.getElementById("alerta").style.display = "none"
+
+}
+
+function boton2() {
+    document.getElementById("Grafo1").style.display = "none"
+    document.getElementById("Grafo2").style.display = "block"
+    document.getElementById("alerta").style.display = "none"
+
 }
 
 

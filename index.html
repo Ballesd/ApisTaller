@@ -14,22 +14,52 @@
 
 <body>
     <header>
-        <div>
+        <div class="bg-dark p-4">
+            <center>
+                <h1 class="text-white fw-bold">Taller de APIs</h1>
+
+                <section class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-success text-white fw-bold"
+                            onclick="grafica_scatter()">Gráfica 1:
+                            Scatter</button>
+                    </div>
+
+                    <div class="col">
+                        <button type="button" class="btn btn-success text-white fw-bold"
+                            onclick="grafica_bubble()">Gráfica 2:
+                            Bubble</button>
+                    </div>
+                </section>
+            </center>
 
         </div>
     </header>
     <section>
-        <!--el botón solo es para probar, FALTA ADAPATARLO LA PAGINA-->
-        <button type ="button" class = "btn btn-success" onclick="grafica_scatter()">PRUEBA Gráfica SCATTER</button>
-        <!--el botón solo es para probar, FALTA ADAPATARLO LA PAGINA-->
-        <button type ="button" class = "btn btn-success" onclick="grafica_bubble()">PRUEBA Gráfica BUBBLE</button>
-        <div id="Grafo1"></div>
-        <div id="Grafo2"></div>
+        <div id="alerta" class="alert alert-warning m-5" role="alert" style="display: block">
+            <h1 class="text-danger text-center">Elige la gráfica !!!</h1>
+        </div>
 
+        <div id="Grafo1" style="display: none"></div>
+        <div id="Grafo2" class="card-body" style="display: none"></div>
     </section>
 
-    <footer>
+    <footer class="text-center text-white" style="background-color: #0a4275;">
 
+        <div class="container p-4 pb-0">
+
+            <section class="row">
+                <p class="d-flex justify-content-center align-items-center">
+                    <span class="me-3 fw-bold">Autores</span>
+                <p class="col">Danny Javier Vasquez Ceron</p>
+                <p class="col">Juan Camilo Ballesteros</p>
+                <p class="col"> Erik Palacio Castellanos</p>
+                </p>
+            </section>
+
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     </footer>
 </body>
 <script src="APIS.js"></script>
