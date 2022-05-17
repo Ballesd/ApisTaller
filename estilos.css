@@ -1,3 +1,12 @@
 #Grafo2{
     margin-left: 4%;
 }
+.TextosRed{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: rgb(229, 248, 248);
+    border-radius: 1.5%;
+    color: rgb(61, 59, 56);
+}
