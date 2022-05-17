@@ -191,16 +191,20 @@ function grafica_bubble(){
 }
 
 function boton1() {
-    document.getElementById("Grafo1").style.display = "block"
-    document.getElementById("Grafo2").style.display = "none"
-    document.getElementById("alerta").style.display = "none"
+    document.getElementById("Grafo1").style.display = "block";
+    document.getElementById("TextoG1").style.display = "block";
+    document.getElementById("Grafo2").style.display = "none";
+    document.getElementById("TextoG2").style.display = "none";
+    document.getElementById("alerta").style.display = "none";
 
 }
 
 function boton2() {
-    document.getElementById("Grafo1").style.display = "none"
-    document.getElementById("Grafo2").style.display = "block"
-    document.getElementById("alerta").style.display = "none"
+    document.getElementById("Grafo1").style.display = "none";
+    document.getElementById("TextoG1").style.display = "none";
+    document.getElementById("Grafo2").style.display = "block";
+    document.getElementById("TextoG2").style.display = "block";
+    document.getElementById("alerta").style.display = "none";
 
 }
 
